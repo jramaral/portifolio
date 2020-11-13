@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import styled from "styled-components";
+import Animate from "animate.css-react";
+import "animate.css";
+
+const Title = styled.div`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <>
+      <Title>
+        <p className="animate__animated animate__bounce">An animated element</p>
+        <p className="animate__animated animate__backInLeft">
+          An animated element
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <p className="animate__animated animate__backInDown">
+          An animated element
+        </p>
+      </Title>
+    </>
   );
 }
-
-export default App;

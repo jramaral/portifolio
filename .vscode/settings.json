@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.port": 5564,
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.deploySubpath": ".",
+  "appService.defaultWebAppToDeploy": "/subscriptions/98f920e0-110c-4ceb-9d71-06efe7b1ad6d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/jraportifolio"
+}

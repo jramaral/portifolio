@@ -1,0 +1,19 @@
+* {
+  font-family: 'Kufam', cursive;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #2c455b;
+
+
+  /* background: linear-gradient(90deg, #000046 0%, #1cb5e0); */
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+
+
+}
